@@ -37,3 +37,22 @@ footer
          transform: rotate(360deg);
     }
 }
+
+.boxani
+{
+    animation-name: Boxani;
+    animation-duration: inherit;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Boxani {
+
+    0%{
+         transform: translateX(10%);
+    }
+    100%
+    {
+       transform: translate(100%);
+    }
+    
+}

@@ -7,9 +7,10 @@ function Index()
     return(
         <>
         <Navbar/>
-        {/*<div className='mt-[220px] '>
+        <div className='mt-[220px] '>
           <FirstContainer /> 
         </div>
+        {/*
         <div className='mt-[150px] mb-32'>
           <SecondContainer/>
     </div>*/}
