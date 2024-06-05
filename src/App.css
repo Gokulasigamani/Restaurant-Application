@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+    background-color: rgb(219, 236, 216);
+
+
+}
+    
+nav
+{
+    
+    box-shadow: 1px 2px 2px 4px black;
+    background: rgb(240, 249, 227);
+}
+
+footer
+{
+
+    background: rgb(240, 249, 227);
+}
+.firstimg
+{
+    animation-name: FirstCircle;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+
+}
+@keyframes FirstCircle {
+    0%{
+           transform: rotate(0);
+    }
+    100%
+    {
+         transform: rotate(360deg);
+    }
+}
