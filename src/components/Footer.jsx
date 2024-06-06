@@ -2,7 +2,7 @@ function Footer()
 {
     return(
         <>
-           <footer className="  bottom-0 fixed w-full h-[300px]">
+           <footer className="  fixed w-full h-[300px]">
 
               
                 <div className="w-[1110px] m-auto mt-16 flex justify-between items-start">

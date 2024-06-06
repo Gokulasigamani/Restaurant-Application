@@ -3,6 +3,7 @@ import Firstimg from '../assets/FirstImage.png'
 import Aos from "aos"
 import { useEffect } from "react"
 import 'aos/dist/aos.css'
+import '../App.css'
 
 function FirstContainer()
 {
@@ -12,8 +13,8 @@ function FirstContainer()
     },[])
     return(
         <>
-            <div className="w-[1110px] m-auto mt-20 flex gap-40 items-center max-sm:flex-col max-sm:w-[300px]  ">
-                <div className="w-[555px] max-sm:text-center max-sm:-m-48 max-sm:w-full" >
+            <div className="w-[1110px] m-auto mt-20 flex gap-40 items-center max-sm:flex-col max-sm:w-[300px]   ">
+                <div className="w-[595px] max-sm:text-center max-sm:-m-48 max-sm:w-full" >
                     <h1 className="text-6xl max-sm:text-4xl font-bold" data-aos="fade-right">HAVE A <span className="text-orange-500">DELICIOUS</span><br /> MEAL WITH US.</h1>
                     <p className="mt-4 max-sm:text-center">A restaurant is a place where people go to eat, frequently with friends, family, or coworkers.</p>
 
@@ -35,6 +36,9 @@ function FirstContainer()
 
                 <img src={Firstimg} className="firstimg w-[440px] max-sm:mt-14 max-sm:mb-5 max-sm:w-[250px]" data-aos="fade-left" alt="" />
             </div>
+
+            
+
         </>
     )
 }
