@@ -18,7 +18,7 @@ function Index()
           <Review/><ReviewBig/>
           <Delivery/> 
         </div>
-        <Footer/>
+      
       
 
 
