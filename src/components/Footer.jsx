@@ -2,10 +2,10 @@ function Footer()
 {
     return(
         <>
-           <footer className="  fixed w-full h-[300px]">
+           <footer className=" sm:w-full h-[250px]">
 
               
-                <div className="w-[1110px] m-auto mt-16 flex justify-between items-start">
+                <div className="w-[1110px] m-auto mt-16 py-9 flex justify-between items-start">
                   
                     <div className="w-[500px]">
                         <h1 className="font-bold text-2xl">NIA Restaurant<span className="text-orange-600 text-4xl">.</span></h1>

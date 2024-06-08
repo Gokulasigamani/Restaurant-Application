@@ -15,11 +15,11 @@ function FirstContainer()
         <>
             <div className="w-[1110px] m-auto mt-20 flex gap-40 items-center max-sm:flex-col max-sm:w-[300px]   ">
                 <div className="w-[595px] max-sm:text-center max-sm:-m-48 max-sm:w-full" >
-                    <h1 className="text-6xl max-sm:text-4xl font-bold" data-aos="fade-right">HAVE A <span className="text-orange-500">DELICIOUS</span><br /> MEAL WITH US.</h1>
+                    <h1 className="text-5xl max-sm:text-4xl font-bold" data-aos="fade-right">HAVE A <span className="text-orange-500">DELICIOUS</span><br /> MEAL WITH US.</h1>
                     <p className="mt-4 max-sm:text-center">A restaurant is a place where people go to eat, frequently with friends, family, or coworkers.</p>
 
                     <div className="mt-4 flex gap-10 max-sm:w-full max-sm:justify-center" data-aos="fade-right">
-                        <Link className=" px-7 py-4 shadow-xl bg-orange-500 text-xl rounded-xl font-semibold text-white">View Our Menu</Link> 
+                        <Link  className=" px-7 py-4 shadow-xl bg-orange-500 text-xl rounded-xl font-semibold text-white">View Our Menu</Link> 
                         <Link className=" max-sm:hidden  px-10 py-4 border-2 shadow-xl bg-transparent  border-neutral-400 border-1  rounded-xl font-semibold text-black">Book a table</Link> 
                     </div>
 
