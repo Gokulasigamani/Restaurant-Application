@@ -40,8 +40,8 @@ function SecondContainer()
 
               <div className=" max-sm:w-full mb-5  sm:hidden" >
                             <h1 className="text-5xl text-orange-700 text-center font-bold">Our <span className="text-5xl text-black">Journey</span></h1>
-                            <div className="card w-[320px] bg-orange-400 rounded-2xl  m-auto mt-5 shadow-2xl shadow-black" data-aos="flip-left">
-                                 <p className="text-sm text-center px-2 py-4 font-serif"> NIA Restaurant has established itself as one of the finest veg restaurants in Coimbatore due to its focus on quality and service. Walk into our restaurants for an all- day dining experience like no other. We offer a variety of cuisines to tease your taste buds and are especially proud of our unique offerings in South Indian dishes</p>
+                            <div className="card w-[320px] bg-orange-400 rounded-2xl  m-auto mt-5 shadow-2xl py-2  shadow-black" data-aos="flip-left">
+                                 <p className="text-sm text-center px-2 py-4  "> NIA Restaurant has established itself as one of the finest veg restaurants in Coimbatore due to its focus on quality and service. Walk into our restaurants for an all- day dining experience like no other. We offer a variety of cuisines to tease your taste buds and are especially proud of our unique offerings in South Indian dishes</p>
                             </div>
                  </div>
 
