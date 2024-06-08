@@ -62,17 +62,12 @@ const data = [
         review: "“NIA RESTAURANT” ... Delicious food and great service! The staff was very friendly and the atmosphere was cozy. Definitely coming back!"
     },
     {
-        name: "Harini",
+        name: "Rahul Verma",
         img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=400",
         review: "“NIA RESTAURANT” ... Wonderful experience! The dishes were flavorful and the presentation was top-notch. The prices are very reasonable too."
     },
     {
-        name: "Dharani",
-        img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=400",
-        review: "“NIA RESTAURANT” ... Excellent service and tasty food. The ambiance is quite nice and the prices are affordable. Would recommend to anyone looking for a good dining experience."
-    },
-    {
-        name: "Hemavardhini",
+        name: "Sakshi Patel",
         img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=400",
         review: "“NIA RESTAURANT” ... Excellent service and tasty food. The ambiance is quite nice and the prices are affordable. Would recommend to anyone looking for a good dining experience."
     },
