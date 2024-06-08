@@ -71,6 +71,11 @@ const data = [
         img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=400",
         review: "“NIA RESTAURANT” ... Excellent service and tasty food. The ambiance is quite nice and the prices are affordable. Would recommend to anyone looking for a good dining experience."
     },
+    {
+        name: "Hemavardhini",
+        img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&w=400",
+        review: "“NIA RESTAURANT” ... Excellent service and tasty food. The ambiance is quite nice and the prices are affordable. Would recommend to anyone looking for a good dining experience."
+    },
    
 
 ];
