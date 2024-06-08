@@ -18,7 +18,7 @@ function Navbar()
 
     return(
         <>
-        <nav className='sm:w-full  h-[150px] flex items-center border-b-2  shadow-xl fixed top-0 z-10 max-sm:hidden '>
+        <nav className='sm:w-full  h-[150px] flex items-center border-b-2  shadow-xl fixed top-0 z-10 max-sm:hidden  '>
  
  
             <div className='w-[1110px] flex justify-between m-auto items-center'>
@@ -31,7 +31,7 @@ function Navbar()
             {/* small screen*/}
 
             <div className='max-sm:relative sm:hidden'>
-                <img src="https://source.unsplash.com//1600x1000/?food" className='max-sm:w-full max-sm:h-[400px] max-sm:object-cover max-sm:relative max-sm:top-0 ' alt="" />
+                <img src="https://images.unsplash.com/photo-1484980972926-edee96e0960d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className='max-sm:w-full max-sm:h-[420px] max-sm:object-cover max-sm:relative max-sm:top-0 ' alt="" />
                 <div className='max-sm:w-full max-sm:bg-black max-sm:absolute max-sm:top-0 max-sm:right-0 max-sm:left-0 max-sm:bottom-0 max-sm:[400px] max-sm:opacity-60'></div>
             </div>
 

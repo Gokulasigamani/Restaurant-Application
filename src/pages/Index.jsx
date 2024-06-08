@@ -2,6 +2,7 @@ import FirstContainer from '../components/FirstContainer'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import SecondContainer from '../components/SecondContainer'
+import Review from '../components/Review'
 function Index()
 {
     return(
@@ -12,11 +13,12 @@ function Index()
         </div>
         
           <SecondContainer/>
+          <Review/>
       
 
 
 
-        </> 
+        </>
     )
 }
 export default Index

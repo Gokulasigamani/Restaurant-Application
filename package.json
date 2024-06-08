@@ -10,11 +10,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/roboto": "^5.0.13",
+    "@material-tailwind/react": "^2.1.9",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
-    "scrollreveal": "^4.0.9"
+    "react-slick": "^0.30.2",
+    "scrollreveal": "^4.0.9",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.11",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 import Firstimg from '../assets/FirstImage.png'
+import Zom from '../assets/Zomato.png'
+import Swig from '../assets/Swiggy.png'
 import Aos from "aos"
 import { useEffect } from "react"
-import 'aos/dist/aos.css'
 
+import 'aos/dist/aos.css'
 function SecondContainer()
 {
     useEffect(()=>
@@ -12,7 +14,7 @@ function SecondContainer()
     },[])
     return(
         <>
-            <div className="w-[1110px] m-auto mt-20 flex gap-32 items-center max-sm:hidden  ">
+            <div className="w-[1110px] m-auto mt-20 flex gap-32 items-center max-sm:hidden mb-12  ">
                <img src={Firstimg} className="firstimg w-[410px]" data-aos="fade-left" alt="" />
 
                <div className="w-[555px]" >
@@ -24,11 +26,12 @@ function SecondContainer()
                         <Link className=" px-10 py-4 border-2 shadow-xl bg-transparent  border-neutral-400 border-1  rounded-xl font-semibold text-black">Book a table</Link> 
                     </div>
 
-                    <div className="flex gap-6 mt-7" data-aos="fade-right" >
-                        <img src="https://source.unsplash.com//500x400/?Burger" className="w-[150px] h-[110px] rounded-xl shadow-2xl" alt="" />
-                        <img src="https://source.unsplash.com//500x400/?dosa" className="w-[150px] h-[110px] rounded-xl shadow-2xl" alt="" />
-                        <img src="https://source.unsplash.com//500x400/?paratha" className="w-[150px] h-[110px] rounded-xl shadow-2xl" alt="" />
-                    </div>
+                    <div className="flex gap-6 mt-7" data-aos="fade-right">
+                            <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJ1cmdlcnxlbnwwfHx8fDE2NDU1MjQ3NDI&ixlib=rb-1.2.1&q=80&w=400" className="w-[150px] h-[110px] rounded-xl shadow-2xl" alt="Burger" />
+                            <img src="https://images.unsplash.com/photo-1621996348496-29f78a1487e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxkb3NhfGVufDB8fHx8MTY0NTUyNDc0Mg&ixlib=rb-1.2.1&q=80&w=400" className="w-[150px] h-[110px] rounded-xl shadow-2xl" alt="Dosa" />
+                            <img src="https://images.unsplash.com/photo-1598971015793-c74c674b77a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHBhcmF0aGF8ZW58MHx8fHwxNjQ1NTI0NzQy&ixlib=rb-1.2.1&q=80&w=400" className="w-[150px] h-[110px] rounded-xl shadow-2xl" alt="Paratha" />
+                   </div>
+
 
                 </div>
             </div>
@@ -42,7 +45,15 @@ function SecondContainer()
                             </div>
                  </div>
 
+               <div className="sm:hidden   max-sm:w-full " >
+                    <h1 className="font-bold text-3xl mt-11 text-center " data-aos="fade-right">Get Our <span className="text-orange-500">Delicious </span>Food Deliverd At Your Door Step With</h1>
+                    <hr class="w-48 h-1 mx-auto my-4 bg-orange-400 border-0 rounded " data-aos="fade-right"></hr>
+                    <div className="sm:hidden max-sm:w-full flex gap-10 justify-center items-end mb-7" data-aos="fade-right">
+                        <img src={Zom} className="w-[120px]" alt="" />
+                        <img src={Swig} className="w-[100px]" alt="" />
 
+                    </div>
+             </div>   
         </>
     )
 }

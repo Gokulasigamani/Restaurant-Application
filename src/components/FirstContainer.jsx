@@ -27,9 +27,10 @@ function FirstContainer()
 
                      
                     <div className="flex gap-6 mt-7  max-sm:justify-center max-sm:gap-2  max-sm:w-full" data-aos="fade-right" >
-                        <img src="https://source.unsplash.com//500x400/?Burger" className="w-[150px] max-sm:w-[110px] h-[110px] rounded-xl shadow-2xl" alt="" />
-                        <img src="https://source.unsplash.com//500x400/?dosa" className="w-[150px] max-sm:w-[110px] h-[110px] rounded-xl shadow-2xl" alt="" />
-                        <img src="https://source.unsplash.com//500x400/?paratha" className="w-[150px] max-sm:w-[110px] h-[110px] rounded-xl shadow-2xl" alt="" />
+                        <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJ1cmdlcnxlbnwwfHx8fDE2NDU1MjQ3NDI&ixlib=rb-1.2.1&q=80&w=400" className="w-[150px] max-sm:w-[110px] h-[110px] rounded-xl shadow-2xl" alt="" />
+                        <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJ1cmdlcnxlbnwwfHx8fDE2NDU1MjQ3NDI&ixlib=rb-1.2.1&q=80&w=400" className="w-[150px] max-sm:w-[110px] h-[110px] rounded-xl shadow-2xl" alt="" />
+                        <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJ1cmdlcnxlbnwwfHx8fDE2NDU1MjQ3NDI&ixlib=rb-1.2.1&q=80&w=400" className="w-[150px] max-sm:w-[110px] h-[110px] rounded-xl shadow-2xl" alt="" />
+        
                     </div>
 
                 </div>
