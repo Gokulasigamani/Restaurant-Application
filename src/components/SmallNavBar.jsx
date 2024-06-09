@@ -17,7 +17,7 @@ function SmallNavBar()
 
             <div className='max-sm:max-sm:flex max-sm:justify-center '>
                <img src={Logo2} alt="" className='max-sm:absolute  max-sm:w-[250px] max-sm:top-12  sm:hidden transition-all' data-aos="fade-top" />
-               <button className=' bg-transparent border text-white hover:bg-white hover:text-black shadow-lg shadow-black-700 px-10 py-2 rounded-3xl  font-semibold sm:hidden max-sm:absolute max-sm:top-[265px] border-white ' data-aos="fade-bottom">Book your Table</button>
+               <Link to={'/Menu'} className=' bg-transparent border text-white hover:bg-white hover:text-black shadow-lg shadow-black-700 px-10 py-2 rounded-3xl  font-semibold sm:hidden max-sm:absolute max-sm:top-[265px] border-white ' data-aos="fade-bottom">Book your Table</Link>
                <Link to={"/Contact"} className=' bg-transparent border text-white hover:bg-white hover:text-black shadow-lg shadow-black-700 px-5 py-2 rounded-3xl  font-semibold sm:hidden max-sm:absolute max-sm:top-[265px] border-neutral-300 max-sm:mt-14 ' data-aos="fade-bottom">Contact us</Link>
            </div>
 

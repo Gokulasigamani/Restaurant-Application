@@ -3,6 +3,7 @@ import Contactimg from "../assets/Contactimg.png"
 import Navbar from "../components/Navbar"
 import SmallNavBar from "../components/SmallNavBar"
 import { Link } from "react-router-dom"
+import Logo from "../assets/NIA.png"
 
 function Contact()
 {
@@ -10,7 +11,7 @@ function Contact()
         <>
          <Navbar  className="max-sm:hidden" />
         
-          <div className="w-[1310px] m-auto flex mt-[200px] justify-center items-center  gap-11 bg-orange-300  rounded-3xl max-sm:hidden ">
+          <div className="w-[1310px] m-auto flex mt-[170px] justify-center items-center  gap-11 bg-orange-300  rounded-3xl max-sm:hidden ">
                <div className="w-1/2 p-4" >
                         <h2 className="font-bold text-5xl text-green-700">How can we help you?</h2>
                         <h1 className="font-bold text-6xl mt-3">Contact us</h1>
@@ -66,11 +67,16 @@ function Contact()
                </div>
           </div>
 
+          <div className=" max-sm:hidden text-center px-5 py-2 bg-green-500 w-[100px] m-auto rounded-2xl font-bold mt-2" > <Link to={"/"}  >Back</Link></div>
+
+
 {/* small screen  */}
 
-<div className="sm:hidden max-sm:w-full h-[100vh] bg-orange-200 p-4   " >
+<div className="sm:hidden max-sm:w-full h-[100vh] bg-orange-200 p-4 " >
+        
+        <img src={Logo} className="w-[100px] m-auto" alt="" />
 
-       <div className="mt-24 text-center" >
+       <div className="mt-2 text-center" >
         <h2 className="font-bold text-5xl text-green-700">How can we help you?</h2>
         <h1 className="font-bold text-6xl mt-3">Contact us</h1>
         <p className="font-2xl mt-4 font-semibold ">We're here to help you and answer any questions you might have. We look forward to hearing from you.</p>
@@ -116,11 +122,12 @@ function Contact()
         gokulsusela@gmail.com
      </div>
 
-</div>
+   </div>
 
 </div>
+
        
-    <div className="text-center px-5 py-2 bg-green-500 w-[100px] m-auto rounded-2xl font-bold mt-10" > <Link to={"/"}  >Back</Link></div>
+    <div className="text-center px-5 py-2 bg-green-500 w-[100px] m-auto rounded-2xl font-bold mt-5" > <Link to={"/"}  >Back</Link></div>
 
     </div>
 

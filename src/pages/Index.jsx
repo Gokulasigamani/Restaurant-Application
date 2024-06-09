@@ -11,12 +11,15 @@ function Index()
 {
     return(
         <>
-        <Navbar/><SmallNavBar/>
+          <Navbar/><SmallNavBar/>
+
         <div className='mt-[220px] '>
-          <FirstContainer />
-          <SecondContainer/>
-          <Review/><ReviewBig/>
-          <Delivery/> 
+          
+              <FirstContainer />
+              <SecondContainer/>
+              <Review/><ReviewBig/>
+              <Delivery/> 
+
         </div>
       
       
