@@ -6,6 +6,8 @@ import Review from '../components/Review'
 import ReviewBig from '../components/ReviewBig'
 import Delivery from '../components/Delivery'
 import SmallNavBar from '../components/SmallNavBar'
+import Table from './Table'
+
 
 function Index()
 {

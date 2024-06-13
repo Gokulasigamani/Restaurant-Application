@@ -20,7 +20,7 @@ function FirstContainer()
 
                     <div className="mt-4 flex gap-10 max-sm:w-full max-sm:justify-center" data-aos="fade-right">
                         <Link to={'/Menu'}  className=" px-7 py-4 shadow-xl bg-orange-500 text-xl rounded-xl font-semibold text-white">View Our Menu</Link> 
-                        <Link className=" max-sm:hidden  px-10 py-4 border-2 shadow-xl bg-transparent  border-neutral-400 border-1  rounded-xl font-semibold text-black">Book a table</Link> 
+                        <Link to={'/Table'} className=" max-sm:hidden  px-10 py-4 border-2 shadow-xl bg-transparent  border-neutral-400 border-1  rounded-xl font-semibold text-black">Book a table</Link> 
                     </div>
 
                      

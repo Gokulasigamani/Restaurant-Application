@@ -20,7 +20,7 @@ function SecondContainer()
                <div className="w-[600px]" >
                     <h1 className="text-6xl font-bold" data-aos="fade-right">Our<span className="text-orange-500">Journey</span></h1>
                     <h2 className="text-3xl font-bold mt-3 w-[600px]" data-aos="fade-right">Gateway to the Flavours <span className="text-orange-400">of TAMIL NADU</span> </h2>
-                    <p className="mt-3 text-xl">NIA Restaurant has established itself as one of the finest veg restaurants in Coimbatore due to its focus on quality and service. Walk into our restaurants for an all- day dining experience like no other. We offer a variety of cuisines to tease your taste buds and are especially proud of our unique offerings in South Indian dishes.</p>
+                    <p className="mt-3 text-xl font-bold">NIA Restaurant has established itself as one of the finest veg restaurants in Coimbatore due to its focus on quality and service. Walk into our restaurants for an all- day dining experience like no other. We offer a variety of cuisines to tease your taste buds and are especially proud of our unique offerings in South Indian dishes.</p>
 
 
                 </div>
@@ -31,7 +31,7 @@ function SecondContainer()
               <div className=" max-sm:w-full mb-5  sm:hidden" >
                             <h1 className="text-5xl text-orange-700 text-center font-bold">Our <span className="text-5xl text-black">Journey</span></h1>
                             <div className="card w-[320px] bg-orange-400 rounded-2xl  m-auto mt-5 shadow-2xl py-2  shadow-black" data-aos="flip-left">
-                                 <p className="text-sm text-center px-2 py-4  "> NIA Restaurant has established itself as one of the finest veg restaurants in Coimbatore due to its focus on quality and service. Walk into our restaurants for an all- day dining experience like no other. We offer a variety of cuisines to tease your taste buds and are especially proud of our unique offerings in South Indian dishes</p>
+                                 <p className="text-sm text-center px-3 py-5 font-semibold text-neutral-600"> NIA Restaurant has established itself as one of the finest veg restaurants in Coimbatore due to its focus on quality and service. Walk into our restaurants for an all- day dining experience like no other. We offer a variety of cuisines to tease your taste buds and are especially proud of our unique offerings in South Indian dishes</p>
                             </div>
                  </div>
 
