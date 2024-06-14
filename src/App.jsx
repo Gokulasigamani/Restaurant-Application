@@ -7,6 +7,7 @@ import Menu from './pages/Menu'
 import Table from './pages/Table'
 import Success from './pages/Success'
 
+
 function App() {
   
   const [details,setDetails]=useState(null);
