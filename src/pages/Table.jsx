@@ -2,7 +2,7 @@
 import { Form } from "react-router-dom";
 import Logo from "../assets/NIA.png";
 import { useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";  
 function Table({setDetails}) {
   let NameInput = useRef();
   let DateInput = useRef();
@@ -17,7 +17,7 @@ function Table({setDetails}) {
       members: MembersInput.current.value,
     };
     setDetails(BookingDatas);
-    fetch("http://localhost:4000/p", {
+    fetch("https://restaurantbackend-qsn3.onrender.com/p", {
       method: "POST",
       body: JSON.stringify({
         "name":BookingDatas.name,
